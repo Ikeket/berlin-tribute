@@ -1,0 +1,135 @@
+main {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 auto;
+  max-width: 1000px;
+  width: 95%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+main p {
+  font-size: 20px;
+}
+
+main h1 {
+  font-size: 50px;
+}
+
+main h2 {
+  font-size: 30px;
+  margin-bottom: 35px;
+}
+
+main header {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 250px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main figure {
+  height: 100%;
+  max-height: 600px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 15px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+main figure figcaption {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgba(0, 0, 0, 0.75);
+  bottom: 0;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 20px;
+  height: 50px;
+  padding-left: 15px;
+  position: absolute;
+  width: 100%;
+}
+
+main figure img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+  height: 600px;
+  width: 100%;
+}
+
+main section {
+  width: 100%;
+}
+
+main section article {
+  margin: 50px 0;
+}
+
+main section article span {
+  border-bottom: black 2px solid;
+  font-size: 20px;
+  margin: 30px 0 10px 0;
+}
+
+main footer {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgba(0, 0, 0, 0.75);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  height: 50px;
+  margin-bottom: 25px;
+  width: 100%;
+  border-radius: 15px;
+}
+
+main footer a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+main footer a:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.text-center {
+  text-align: center;
+}
+/*# sourceMappingURL=main.css.map */

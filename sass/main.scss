@@ -1,0 +1,15 @@
+@import "./utils/variables";
+@import "./utils/mixins";
+@import "./utils/breakpoints"; // media quieries variables
+
+@import "./base/base";
+@import "./base/footer";
+@import "./base/header";
+@import "./base/typography";
+
+@import "./components/animations";
+@import "./components/buttons";
+
+@import "./pages/homepage";
+
+// dont forgive to generate .json to use Sass correctly.

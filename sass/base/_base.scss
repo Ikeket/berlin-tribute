@@ -1,0 +1,85 @@
+main {
+	flex-direction: column;
+	margin: 0 auto;
+	max-width: 1000px;
+	width: 95%;
+	@include flex-CC;
+	@include border-box;
+	& p {
+		font-size: 20px;
+	}
+	& h1 {
+		font-size: 50px;
+	}
+	& h2 {
+		font-size: 30px;
+		margin-bottom: 35px;
+	}
+	& header {
+		flex-direction: column;
+		height: 250px;
+		@include border-box;
+		@include flex-CC;
+	}
+	& figure {
+		height: 100%;
+		max-height: 600px;
+		overflow: hidden;
+		position: relative;
+		@include radius15;
+		@include border-box;
+		& figcaption {
+			align-items: center;
+			background-color: rgba(0, 0, 0, 0.75);
+			bottom: 0;
+			color: white;
+			display: flex;
+			font-size: 20px;
+			height: 50px;
+			padding-left: 15px;
+			position: absolute;
+			width: 100%;
+		}
+		& img {
+			object-fit: cover;
+			object-position: top;
+			height: 600px;
+			width: 100%;
+		}
+	}
+
+	& section {
+		width: 100%;
+		& article {
+			margin: 50px 0;
+			& span {
+				border-bottom: black 2px solid;
+				font-size: 20px;
+				margin: 30px 0 10px 0;
+			}
+		}
+	}
+
+	& footer {
+		align-items: center;
+		background-color: rgba(0, 0, 0, 0.75);
+		display: flex;
+		justify-content: space-evenly;
+		height: 50px;
+		margin-bottom: 25px;
+		width: 100%;
+		@include radius15;
+		& a {
+			color: white;
+			text-decoration: none;
+			text-transform: uppercase;
+			&:hover {
+				transform: scale(1.2);
+			}
+		}
+	}
+}
+
+.text-center {
+	text-align: center;
+}
